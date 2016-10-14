@@ -55,8 +55,7 @@ public class ImageDAO {
 
     public void getImageToShowURLFromFireBase(final String imageToShow, final ResultListener<String> listenerController) {
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
-        //TODO: crear proyecto firebase
-        StorageReference firebaseStorageRef = firebaseStorage.getReferenceFromUrl("gs://miami2016-75b5c.appspot.com");
+        StorageReference firebaseStorageRef = firebaseStorage.getReferenceFromUrl("gs://seagrandolafamilia.appspot.com");
 
         firebaseStorageRef.child(imageToShow).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override

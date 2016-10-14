@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558069937562",
+    "firebase_url": "https://seagrandolafamilia.firebaseio.com",
+    "project_id": "seagrandolafamilia",
+    "storage_bucket": "seagrandolafamilia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558069937562:android:8a45feec538b8ae7",
+        "android_client_info": {
+          "package_name": "joesoft.seagandolafamilia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558069937562-fk6ob38bsik72c12hckfq0skjiol4qnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "joesoft.seagandolafamilia",
+            "certificate_hash": "A552EE131D7DE9532B62CE8329782CDB88A5840B"
+          }
+        },
+        {
+          "client_id": "558069937562-7o6c5c3h9tb03kel5au4f4pc3ltumfs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnsTeKvTG0r_8vM-4cmB9t2PYh-47kGn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558069937562-7o6c5c3h9tb03kel5au4f4pc3ltumfs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
