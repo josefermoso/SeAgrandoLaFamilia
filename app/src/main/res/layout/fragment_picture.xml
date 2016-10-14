@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="joesoft.seagandolafamilia.view.PictureFragment">
+
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/fragmentPictureImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/fragmentPictureText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+</FrameLayout>
