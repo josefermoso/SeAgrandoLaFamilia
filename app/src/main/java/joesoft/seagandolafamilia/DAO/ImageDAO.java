@@ -50,7 +50,7 @@ public class ImageDAO {
                     public void onCancelled(DatabaseError databaseError) {
                         Log.w("", "getUser:onCancelled", databaseError.toException());
                     }
-                });
+                }); 
     }
 
     public void getImageToShowURLFromFireBase(final String imageToShow, final ResultListener<String> listenerController) {
